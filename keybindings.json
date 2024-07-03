@@ -1,0 +1,36 @@
+// Place your key bindings in this file to override the defaults
+[
+   
+    {
+        "key": "Cmd+Shift+m",
+        "command": "type",
+        "args": { "text": "%>%" },
+        "when": "editorTextFocus",
+        "editorLangID": "r, rmd"
+    },
+    {
+        "key": "Cmd+Ctrl+v",
+        "command": "toggleVim"
+      },
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+    ]
+    

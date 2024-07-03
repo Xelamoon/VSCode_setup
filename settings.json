@@ -1,0 +1,124 @@
+{
+    "code-runner.runInTerminal": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlineSuggest.enabled": true,
+    "python.defaultInterpreterPath": "/Users/knoetzl/miniconda3/envs/MLVC/bin/python",
+    "editor.rulers": [
+        80
+    ],
+    "editor.minimap.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "diffEditor.renderSideBySide": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "quarto.mathjax.theme": "dark",
+    "github.copilot.enable": {
+      "quarto": true,
+      "*": true,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false
+    },
+    "r.rmarkdown.enableCodeLens": true,
+    "r.rterm.mac": "/Users/knoetzl/miniforge3/envs/r-env/bin/radian",
+    "r.bracketedPaste": true,
+    
+    
+    // "workbench.colorCustomizations": {
+    //     "activityBar.background": "#2F2B26",
+    //     "statusBar.noFolderBackground": "#2F2B26",
+    //     "activityBarBadge.background": "#D76538",
+    //     "sideBar.background": "#2F2B26",
+    //     "sideBarSectionHeader.background": "#26221E",
+    //     "activityBar.foreground": "#afafaf",
+    //     "statusBar.background": "#36312C",
+    //     "statusBar.foreground": "#afafaf",
+    //     "statusBar.debuggingForeground": "#fff",
+    //     "editorWarning.foreground": "#F8BB39",
+    //     "editorInfo.foreground": "#00A8C6",
+    //     "editorError.foreground": "#D76538"
+    // },
+    "workbench.colorTheme": "Monokai Dimmed",
+
+  
+    "files.autoSave": "onFocusChange",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.sneak": true,
+    "vim.easymotionMarkerooundColor": "#020202",
+    "vim.normalModeKeyBindings": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<tab>"],
+        "commands": ["workbench.action.nextEditor"]
+      },
+      {
+        "before": ["<S-tab>"],
+        "commands": ["workbench.action.previousEditor"]
+      },
+    ],
+    "vim.visualModeKeyBindings": [
+      {
+        "before": [">"],
+        "after": [">", "g", "v"]
+      },
+      {
+        "before": ["<"],
+        "after": ["<", "g", "v"]
+      },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<leader>", "w"],
+        "commands": ["workbench.action.splitEditor"]
+      },
+      {
+        "before": ["<leader>", "e"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+      },
+      {
+        "before": ["<leader>", "f"],
+        "commands": ["revealInExplorer"]
+      },
+      {
+        "before": ["<leader>", "h"],
+        "after": ["_"]
+      },
+      {
+        "before": ["<leader>", "l"],
+        "after": ["$"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+     // "<C-f>": false,
+      // VS Code new marker @ next occurence
+      "<C-c>": false,
+      // Cut
+      "<C-x>": false,
+      // Paste
+      "<C-v>": false,
+      "<C-z>": false,
+      "<C-y>": false
+  
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "CodeGPT.model": "code-davinci-002",
+  "CodeGPT.maxTokens": 4000,
+  "r.plot.useHttpgd": true
+  
+
+
+}
